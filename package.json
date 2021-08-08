@@ -1,0 +1,24 @@
+{
+  "name": "node_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/womenInIt/node_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/womenInIt/node_web/issues"
+  },
+  "homepage": "https://github.com/womenInIt/node_web#readme",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-oas-generator": "^1.0.39",
+    "nodemon": "^2.0.12"
+  }
+}
